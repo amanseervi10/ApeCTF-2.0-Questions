@@ -1,7 +1,7 @@
-#pushed to my docker hub (sudodeletebios) with "guess_pwn:latest"
+#pushed to my docker hub (sudodeletebios) with "guesseth_thou_not:latest"
 
 # sudo docker build -t system_health_check .
-# sudo docker run -d -p 32014:32014 --rm -it sudodeletebios/guess_pwn
+# sudo docker run -d -p 32014:32014 --rm -it sudodeletebios/guesseth_thou_not
 
 FROM ubuntu:20.04
 
