@@ -12,4 +12,4 @@ As of writing, the two pwn challenges are hosted on aws ec2 with ip : 65.2.150.2
 Ozymandias : nc 65.2.150.25 5184
 guesseth_thou_not : nc 65.2.150.25 32014
 
-The website of the web challenge is deployed at : https://apectf-2-0-questions.onrender.com
+The website of the web challenge is deployed at : https://agents-of-stealth.onrender.com
