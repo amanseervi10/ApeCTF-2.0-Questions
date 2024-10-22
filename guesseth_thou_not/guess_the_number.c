@@ -7,7 +7,7 @@
 void kill_on_timeout(int sig) {
     if (sig == SIGALRM) {
         printf("[!] Anti DoS Signal. Patch me out for testing.\n");
-        fflush(stdout); // Flush the output buffer
+        fflush(stdout); 
         _exit(0);
     }
 }

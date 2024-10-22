@@ -1,3 +1,4 @@
+#pushed to my docker hub (sudodeletebios) with "ozymandias:latest"
 # sudo docker run -d -p 5184:5184 --rm -it sudodeletebios/ozymandias:latest
 
 FROM ubuntu:22.04
