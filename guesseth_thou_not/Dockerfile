@@ -1,9 +1,8 @@
 #pushed to my docker hub (sudodeletebios) with "guesseth_thou_not:latest"
 
-# sudo docker build -t system_health_check .
 # sudo docker run -d -p 32014:32014 --rm -it sudodeletebios/guesseth_thou_not
 
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 RUN apt-get update
 
@@ -15,7 +14,8 @@ WORKDIR /home/ctf
 COPY guess_the_number .
 COPY ynetd .
 
-RUN chown -R root:root /home/ctf
+#RUN chown -R root:root /home/ctf
+RUN chown -R root:ctf /home/ctf && chmod -R 750 /home/ctf
 
 USER ctf
 EXPOSE 32014
